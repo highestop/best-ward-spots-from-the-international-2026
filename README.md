@@ -1,38 +1,33 @@
-# TI 2026 眼位整理
+# Best Ward Spots from The International 2026
 
-一份从 `TI2026眼位整理.pptx` 整理而来的 Dota 2 眼位参考。仓库将原始版式逐页保存为图片，并按阵营与攻防用途补充 Markdown 备注，避免依赖会过期的 WeTransfer 链接。
+An English, screenshot-first reference based directly on RoJack's original video and public Miro board.
 
-## 快速导航
+- Original video: [Best Ward Spots from The International 2026 (Copy These)](https://www.youtube.com/watch?v=59S_PYrXT6c)
+- Original board: [TI Wards Cheat Sheet](https://miro.com/app/board/uXjVHsXFYaI=/)
+- Original creator: [RoJack](https://www.youtube.com/@RoJack4848)
 
-- [天辉防守眼](docs/radiant-defense.md) — 第 1–10 页
-- [天辉进攻眼](docs/radiant-offense.md) — 第 11–23 页
-- [夜魇防守眼](docs/dire-defense.md) — 第 24–32 页
-- [夜魇进攻眼](docs/dire-offense.md) — 第 33–50 页
+This repository stores its own optimized copies of the source screenshots, so the guide does not depend on temporary file-transfer links or expiring image URLs.
 
-## 阅读说明
+## Browse the guide
 
-- 蓝色区域是截图中显示的眼位视野范围，绿色圆弧是观察范围边界。
-- “砍树”是原 PPT 已有标注，表示该位置需要移除树木，才能完成落眼、扩大视野或打开路径。
-- 各页名称与“观察 / 注意”由整理者根据画面补充，便于检索，不代表原作者为该眼位设定的正式名称。
-- 原 PPT 未提供游戏版本号。地图、树木和高低差改动后，应在当前版本中重新验证。
-- 部分画面在不同攻防章节重复出现，仓库保留这些重复页，以维持原 PPT 的分类和页序。
+- [Video walkthrough notes](docs/video-guide.md) — timestamped placement, vision, and dewarding advice from the 5:15 video
+- [Radiant-side spots](docs/radiant.md) — 28 screenshots grouped by top, mid, bottom, and Quelling Blade sections
+- [Dire-side spots](docs/dire.md) — 22 screenshots grouped by top, mid, bottom, and Quelling Blade sections
+- [Extra spots](docs/extra-wards.md) — 36 additional screenshots from the source deck linked on Miro
+- [Sources and methodology](SOURCES.md) — attribution, source-deck checksums, transformations, and known source inconsistencies
 
-## 预览
+## How to read the screenshots
 
-![天辉防守眼示例](assets/slides/page-002.png)
+- The blue overlay shows the selected Observer Ward's revealed area in the replay.
+- The ward model and planter name at the bottom help identify the exact replay object.
+- Use the minimap and terrain landmarks together; several placements are intentionally hidden behind trees or on narrow ledges.
+- Sections marked **Quelling Blade** require, or are presented by the source as benefiting from, tree removal.
+- These screenshots reflect the map used at The International 2026. Recheck tree lines, cliffs, and sentry coverage after map updates.
 
-## 保存策略
+[![Top Roshan and rune-area ward example](assets/wards/dire/top/07.webp)](assets/wards/dire/top/07.webp)
 
-本仓库的 Markdown 使用相对路径引用 `assets/slides/` 内的图片，不再请求 WeTransfer 或其 CDN。只要仓库及对应提交仍然存在，图片就可以继续从 GitHub 查看；WeTransfer 下载链接及其底层签名地址不应被当作永久外链。
+## Attribution
 
-## 来源完整性
+Ward selection, original screenshots, video analysis, and the Miro board are credited to RoJack. Player names, team marks, Dota 2 footage, and game assets remain the property of their respective owners. This is an unofficial, non-commercial archival and indexing project; it is not affiliated with RoJack, Valve, or The International.
 
-- 原文件名：`TI2026眼位整理.pptx`
-- 原文件大小：`64,646,799` 字节
-- 原文件页数：`50`
-- 整理日期：`2026-09-09`
-- SHA-256：`d3a4e39fd87d5805cec1bae777f8f8f43a3c70d6380e49a4161e5e97e24a4c23`
-
-## 版权说明
-
-本仓库是非官方战术资料整理。Dota 2、游戏素材及相关标识的权利归其各自权利人所有；截图仅用于学习、复盘与战术参考。
+No license is granted here for third-party media. See [SOURCES.md](SOURCES.md) before reusing any screenshot.
