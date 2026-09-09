@@ -1,6 +1,6 @@
 # Best Ward Spots from The International 2026
 
-An English, screenshot-first reference based directly on RoJack's original video and public Miro board.
+A screenshot-first reference based directly on RoJack's original video and public Miro board.
 
 - Original video: [Best Ward Spots from The International 2026 (Copy These)](https://www.youtube.com/watch?v=59S_PYrXT6c)
 - Original board: [TI Wards Cheat Sheet](https://miro.com/app/board/uXjVHsXFYaI=/)
